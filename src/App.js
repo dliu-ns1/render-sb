@@ -50,6 +50,7 @@ function App() {
 
   return (
     <div className="App">
+      <div>version: 0.0.1</div>
       <input type="text" onChange={handleChange}/>
       <button onClick={toggleShow}>Toggle {show ? 'Show' : 'Hidden'}</button>
       <div>Val: {val}</div>
